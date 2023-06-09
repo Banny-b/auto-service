@@ -26,18 +26,19 @@
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
     .hero-header {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         // Gray-white border bottom
         border-bottom: 1px solid ;
-        border-image: linear-gradient(to right, #a7a7a7 62%, #ffffff 38%);
+        border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
         border-image-slice: 1;
     }
 }
 
 @media screen and (min-width: 768px) {
     .hero-header {
+        margin-bottom: 60px;
         border-bottom: 1px solid ;
         border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
         border-image-slice: 1;

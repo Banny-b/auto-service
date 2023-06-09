@@ -39,8 +39,9 @@
     }
 }
 
-@media screen and (min-width: 480px) {
-    .link-nav__email {
+@media screen and (min-width: 360px) {
+    .link-nav__email,
+    .button {
         display: none;
     }
 
@@ -55,7 +56,8 @@
 }
 
 @media screen and (min-width: 768px) {
-    .link-nav__email {
+    .link-nav__email,
+    .button {
         display: block;
     }
 

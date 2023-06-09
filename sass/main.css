@@ -68,17 +68,18 @@ address {
   color: var(--white-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .hero-header {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     border-bottom: 1px solid;
-    -o-border-image: linear-gradient(to right, #a7a7a7 62%, #ffffff 38%);
-       border-image: linear-gradient(to right, #a7a7a7 62%, #ffffff 38%);
+    -o-border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
+       border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
     border-image-slice: 1;
   }
 }
 @media screen and (min-width: 768px) {
   .hero-header {
+    margin-bottom: 60px;
     border-bottom: 1px solid;
     -o-border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
        border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
@@ -133,8 +134,11 @@ address {
   border: 2px solid var(--button-color);
 }
 
-@media screen and (min-width: 480px) {
-  .link-nav__email {
+@media screen and (min-width: 360px) {
+  .link-nav__email,
+.button,
+.modal-form__button,
+.basement-button {
     display: none;
   }
   .hero-text {
@@ -146,7 +150,10 @@ address {
   }
 }
 @media screen and (min-width: 768px) {
-  .link-nav__email {
+  .link-nav__email,
+.button,
+.modal-form__button,
+.basement-button {
     display: block;
   }
   .hero-sub__container {
@@ -184,7 +191,6 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
 }
 
 .diagnostic-item {
@@ -213,6 +219,16 @@ address {
   width: 100%;
 }
 
+@media screen and (min-width: 360px) {
+  .diagnostic-list {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diagnostic-list {
+    gap: 40px;
+  }
+}
 .sub-services-1 {
   background-color: var(--section-color-1);
   border-top: 1px solid var(--border-color);
@@ -267,10 +283,18 @@ address {
     height: 450px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 360px) {
   .service-img {
+    width: 320px;
+    height: 320px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-img {
+    width: 480px;
+    height: 480px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -386,6 +410,7 @@ address {
 
 .basement-button {
   margin-bottom: 20px;
+  margin-right: auto;
   margin-left: auto;
 }
 
@@ -413,7 +438,7 @@ address {
   vertical-align: middle;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .feedback {
     display: none;
   }

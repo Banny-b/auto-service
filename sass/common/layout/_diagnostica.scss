@@ -6,7 +6,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
 }
 
 .diagnostic-item {
@@ -35,4 +34,20 @@
     color: var(--text-color);
     text-align: center;
     width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+    .diagnostic-list {
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .diagnostic-list {
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
