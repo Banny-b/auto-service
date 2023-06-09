@@ -95,7 +95,7 @@ address {
 }
 .hero {
   height: 700px;
-  background-image: url("/img/bg/auto-service-bg.jpg");
+  background-image: url("../img/bg/auto-service-bg.jpg");
   background-size: cover;
   background-position: center;
 }
