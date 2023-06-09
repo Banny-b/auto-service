@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// For mobile
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+// For tablet
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+// For desktop
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}

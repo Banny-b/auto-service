@@ -1,0 +1,38 @@
+.diagnostic {
+    padding: 80px 10px;
+}
+
+.diagnostic-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.diagnostic-item {
+    width: 160px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 350ms;
+
+    &:hover {
+        transform: scale(1.07);
+        // box-shadow: 0 0 10px var(--black-color);
+    }
+}
+
+.diagnostic-item__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.diagnostic-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-align: center;
+    width: 100%;
+}
