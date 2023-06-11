@@ -236,8 +236,8 @@ address {
 }
 
 .text-service-1, .text-service-4, .text-service-3, .text-service-2 {
-  font-family: var(--secondary-font);
-  font-size: 28px;
+  font-family: var(--primary-font);
+  font-size: 24px;
   font-weight: 300;
   color: var(--text-color);
   margin: auto 0;
@@ -308,7 +308,7 @@ address {
 .basement {
   text-align: center;
   background-color: var(--grey-color);
-  padding: 30px;
+  padding: 20px;
 }
 
 .basement-info {
@@ -416,7 +416,7 @@ address {
 
 .license-box {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   border-top: 1px solid var(--border-color);
 }
 
