@@ -26,8 +26,6 @@
 }
 
 .subdiag-ign__item {
-    text-align: center;
-    letter-spacing: 3px;
     color: var(--white-color);
 
     &::before {
@@ -44,7 +42,7 @@
 
 @media screen and (min-width: 360px) {
     .diag-ign__title {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .subdiag-ign__item {
@@ -59,7 +57,7 @@
     }
 
     .subdiag-ign__item {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 }
@@ -72,5 +70,6 @@
     .subdiag-ign__item {
         font-size: 24px;
         letter-spacing: 3px;
+        margin-left: 220px;
     }
 }

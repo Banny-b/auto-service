@@ -751,7 +751,6 @@ address {
 }
 
 .subdiag-pc__item {
-  text-align: center;
   color: var(--white-color);
 }
 .subdiag-pc__item::before {
@@ -769,7 +768,7 @@ address {
     font-size: 22px;
   }
   .subdiag-pc__item {
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
   }
 }
@@ -778,7 +777,7 @@ address {
     font-size: 28px;
   }
   .subdiag-pc__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -789,6 +788,7 @@ address {
   .subdiag-pc__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 230px;
   }
 }
 .diag-fuel__main {
@@ -819,8 +819,6 @@ address {
 }
 
 .subdiag-fuel__item {
-  text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-fuel__item::before {
@@ -835,7 +833,7 @@ address {
 
 @media screen and (min-width: 360px) {
   .diag-fuel__title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .subdiag-fuel__item {
     font-size: 20px;
@@ -847,7 +845,7 @@ address {
     font-size: 28px;
   }
   .subdiag-fuel__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -858,6 +856,7 @@ address {
   .subdiag-fuel__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 230px;
   }
 }
 .diag-ign__main {
@@ -888,8 +887,6 @@ address {
 }
 
 .subdiag-ign__item {
-  text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-ign__item::before {
@@ -904,7 +901,7 @@ address {
 
 @media screen and (min-width: 360px) {
   .diag-ign__title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .subdiag-ign__item {
     font-size: 20px;
@@ -916,7 +913,7 @@ address {
     font-size: 28px;
   }
   .subdiag-ign__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -927,6 +924,7 @@ address {
   .subdiag-ign__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 220px;
   }
 }
 .diag-electro__main {
@@ -957,8 +955,6 @@ address {
 }
 
 .subdiag-electro__item {
-  text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-electro__item::before {
@@ -973,7 +969,7 @@ address {
 
 @media screen and (min-width: 360px) {
   .diag-electro__title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .subdiag-electro__item {
     font-size: 20px;
@@ -985,7 +981,7 @@ address {
     font-size: 28px;
   }
   .subdiag-electro__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -996,6 +992,7 @@ address {
   .subdiag-electro__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 220px;
   }
 }
 .diag-ev__main {
@@ -1026,8 +1023,6 @@ address {
 }
 
 .subdiag-ev__item {
-  text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-ev__item::before {
@@ -1042,7 +1037,7 @@ address {
 
 @media screen and (min-width: 360px) {
   .diag-ev__title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .subdiag-ev__item {
     font-size: 20px;
@@ -1054,7 +1049,7 @@ address {
     font-size: 28px;
   }
   .subdiag-ev__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -1065,6 +1060,7 @@ address {
   .subdiag-ev__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 210px;
   }
 }
 .diag-chip__main {
@@ -1095,8 +1091,6 @@ address {
 }
 
 .subdiag-chip__item {
-  text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-chip__item::before {
@@ -1111,7 +1105,7 @@ address {
 
 @media screen and (min-width: 360px) {
   .diag-chip__title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .subdiag-chip__item {
     font-size: 20px;
@@ -1123,7 +1117,7 @@ address {
     font-size: 28px;
   }
   .subdiag-chip__item {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 }
@@ -1134,5 +1128,6 @@ address {
   .subdiag-chip__item {
     font-size: 24px;
     letter-spacing: 3px;
+    margin-left: 130px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -26,8 +26,6 @@
 }
 
 .subdiag-chip__item {
-    text-align: center;
-    letter-spacing: 3px;
     color: var(--white-color);
 
     &::before {
@@ -44,7 +42,7 @@
 
 @media screen and (min-width: 360px) {
     .diag-chip__title {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .subdiag-chip__item {
@@ -59,7 +57,7 @@
     }
 
     .subdiag-chip__item {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 }
@@ -72,5 +70,6 @@
     .subdiag-chip__item {
         font-size: 24px;
         letter-spacing: 3px;
+        margin-left: 130px;
     }
 }

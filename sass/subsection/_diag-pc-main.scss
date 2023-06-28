@@ -26,7 +26,6 @@
 }
 
 .subdiag-pc__item {
-    text-align: center;
     color: var(--white-color);
 
     &::before {
@@ -47,7 +46,7 @@
     }
 
     .subdiag-pc__item {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
 }
@@ -58,7 +57,7 @@
     }
 
     .subdiag-pc__item {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 }
@@ -71,5 +70,6 @@
     .subdiag-pc__item {
         font-size: 24px;
         letter-spacing: 3px;
+        margin-left: 230px;
     }
 }
