@@ -61,9 +61,6 @@ address {
   display: flex;
   align-items: center;
 }
-.menu-nav li:not(:last-child) {
-  margin-right: 40px;
-}
 
 .menu-nav__item {
   list-style: none;
@@ -111,11 +108,11 @@ address {
     margin-right: 11px;
   }
   .link-nav__phone {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
   }
   .lang-buttons {
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
   }
 }
@@ -126,6 +123,9 @@ address {
     -o-border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
        border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
     border-image-slice: 1;
+  }
+  .menu-nav li:not(:last-child) {
+    margin-right: 40px;
   }
   .link-nav__email {
     font-size: 18px;
@@ -150,7 +150,7 @@ address {
     border-image-slice: 1;
   }
   .menu-nav {
-    margin-left: 390px;
+    margin-left: 540px;
   }
 }
 .hero {
@@ -201,7 +201,8 @@ address {
     display: none;
   }
   .hero-text {
-    width: 210px;
+    font-size: 18px;
+    width: 180px;
     margin-bottom: 30px;
   }
   .button, .modal-form__button, .basement-button {
@@ -220,8 +221,8 @@ address {
     padding-left: 10px;
   }
   .hero-text {
+    font-size: 22px;
     width: 100%;
-    margin-bottom: 20px;
   }
   .button, .modal-form__button, .basement-button {
     margin-left: 20px;
@@ -232,11 +233,15 @@ address {
     width: 400px;
     padding-left: 20px;
   }
+  .hero-title {
+    font-size: 52px;
+  }
   .hero-text {
+    font-size: 24px;
     margin-bottom: 90px;
   }
   .button, .modal-form__button, .basement-button {
-    margin-left: 40px;
+    margin-left: 90px;
     -ms-writing-mode: initial;
         writing-mode: initial; /* Default value */
     text-orientation: initial; /* Default value */
@@ -289,7 +294,7 @@ address {
   }
 }
 .sub-services-1 {
-  background-color: var(--section-color-1);
+  background-color: var(--white-color);
   border-top: 1px solid var(--border-color);
   margin-bottom: 10px;
 }
@@ -420,6 +425,14 @@ address {
   color: var(--white-color);
 }
 
+.feedback {
+  max-width: 500px;
+}
+
+.basement-inputs {
+  display: inline-block;
+}
+
 .input-form {
   color: var(--white-color);
   border: 1px solid var(--text-color);
@@ -513,15 +526,15 @@ address {
     width: 180px;
   }
   .message-form {
-    width: 372px;
+    width: 370px;
   }
 }
 @media screen and (min-width: 1200px) {
   .input-form {
-    width: 264px;
+    width: 220px;
   }
   .message-form {
-    width: 538px;
+    width: 450px;
   }
 }
 .backdrop {
@@ -702,10 +715,9 @@ address {
   --light-gray: #f1f0f0;
   --link-color: #3633fd;
   --link-color-two: #6a5acd;
-  --section-color-1: #fcfcf1;
-  --section-color-2: #03b1b1;
-  --section-color-3: #809caa;
-  --section-color-4: #386888;
+  --section-color-2: #2fb4af;
+  --section-color-3: #899ba5;
+  --section-color-4: #336c7d;
   --text-color: #8b8b8b;
   --white-color: #ffffff;
   --function-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -715,13 +727,13 @@ address {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-pc__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-pc__img {
@@ -730,7 +742,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-pc__list {
@@ -740,7 +752,6 @@ address {
 
 .subdiag-pc__item {
   text-align: center;
-  letter-spacing: 3px;
   color: var(--white-color);
 }
 .subdiag-pc__item::before {
@@ -753,17 +764,44 @@ address {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 360px) {
+  .diag-pc__title {
+    font-size: 22px;
+  }
+  .subdiag-pc__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-pc__title {
+    font-size: 28px;
+  }
+  .subdiag-pc__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-pc__title {
+    font-size: 34px;
+  }
+  .subdiag-pc__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+}
 .diag-fuel__main {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-fuel__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-fuel__img {
@@ -772,7 +810,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-fuel__list {
@@ -795,17 +833,44 @@ address {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 360px) {
+  .diag-fuel__title {
+    font-size: 22px;
+  }
+  .subdiag-fuel__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-fuel__title {
+    font-size: 28px;
+  }
+  .subdiag-fuel__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-fuel__title {
+    font-size: 34px;
+  }
+  .subdiag-fuel__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+}
 .diag-ign__main {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-ign__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-ign__img {
@@ -814,7 +879,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-ign__list {
@@ -837,17 +902,44 @@ address {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 360px) {
+  .diag-ign__title {
+    font-size: 22px;
+  }
+  .subdiag-ign__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-ign__title {
+    font-size: 28px;
+  }
+  .subdiag-ign__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-ign__title {
+    font-size: 34px;
+  }
+  .subdiag-ign__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+}
 .diag-electro__main {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-electro__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-electro__img {
@@ -856,7 +948,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-electro__list {
@@ -879,17 +971,44 @@ address {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 360px) {
+  .diag-electro__title {
+    font-size: 22px;
+  }
+  .subdiag-electro__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-electro__title {
+    font-size: 28px;
+  }
+  .subdiag-electro__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-electro__title {
+    font-size: 34px;
+  }
+  .subdiag-electro__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+}
 .diag-ev__main {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-ev__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-ev__img {
@@ -898,7 +1017,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-ev__list {
@@ -921,17 +1040,44 @@ address {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 360px) {
+  .diag-ev__title {
+    font-size: 22px;
+  }
+  .subdiag-ev__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-ev__title {
+    font-size: 28px;
+  }
+  .subdiag-ev__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-ev__title {
+    font-size: 34px;
+  }
+  .subdiag-ev__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+}
 .diag-chip__main {
   background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
   border-top: 2px solid var(--light-gray);
   margin-bottom: 5px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .diag-chip__title {
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .subdiag-chip__img {
@@ -940,7 +1086,7 @@ address {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .subdiag-chip__list {
@@ -961,4 +1107,32 @@ address {
 }
 .subdiag-chip__item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 360px) {
+  .diag-chip__title {
+    font-size: 22px;
+  }
+  .subdiag-chip__item {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .diag-chip__title {
+    font-size: 28px;
+  }
+  .subdiag-chip__item {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .diag-chip__title {
+    font-size: 34px;
+  }
+  .subdiag-chip__item {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
 }/*# sourceMappingURL=main.css.map */

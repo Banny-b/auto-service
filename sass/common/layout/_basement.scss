@@ -58,6 +58,14 @@
 }
 
 // Basement form
+.feedback {
+    max-width: 500px;
+}
+
+.basement-inputs {
+    display: inline-block;
+}
+
 .input-form {
     color: var(--white-color);
     border: 1px solid var(--text-color);
@@ -150,16 +158,16 @@
     }
 
     .message-form {
-        width: 372px;
+        width: 370px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .input-form {
-        width: 264px;
+        width: 220px;
     }
 
     .message-form {
-        width: 538px;
+        width: 450px;
     }
 }

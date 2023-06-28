@@ -15,10 +15,6 @@
 .menu-nav {
     display: flex;
     align-items: center;
-
-    & li:not(:last-child) {
-        margin-right: 40px;
-    }
 }
 
 .menu-nav__item {
@@ -73,12 +69,12 @@
     }
 
     .link-nav__phone {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .lang-buttons {
-        justify-content: center;
+        justify-content: space-evenly;
         flex-direction: column;
     }
 }
@@ -89,6 +85,10 @@
         border-bottom: 1px solid ;
         border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
         border-image-slice: 1;
+    }
+
+    .menu-nav li:not(:last-child) {
+        margin-right: 40px;
     }
 
     .link-nav__email {
@@ -117,6 +117,6 @@
     }
 
     .menu-nav {
-        margin-left: 390px;
+        margin-left: 540px;
     }
 }
