@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon/icon-autoservice.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icon/icon-autoservice.ico" type="image/x-icon">
+    <title>Chip-tuning</title>
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="page-header container">
+        <nav class="page-nav__container">
+            <a class="link-logo" href="./index.html"><img src="./img/icon/sp-logo.jpg" alt="sp-logo" width="80" height="80"></a>
+            <ul class="menu-nav">
+                <li class="menu-nav__item">
+                    <a class="link-nav__email" href="">+38 066 123 45 67</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="link-nav__phone" href="./index.html">Назад</a>
+                </li>
+            </ul>
+            <div class="lang-buttons">
+                <button id="russian" class="language-button active" onclick="switchLanguage('russian')">Рус</button>
+                <button id="ukrainian" class="language-button" onclick="switchLanguage('ukrainian')">Укр</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main-Diag-ChipTuning -->
+    <section class="diag-chip__main container">
+    <h1 class="diag-chip__title" id="diag-chip__tit">Настройка электроники</h1>
+    <div class="diag-chip__content">
+        <img class="subdiag-chip__img" src="./img/service/subservice/chip-tuning.jpg" alt="chip-tuning">
+        <ul class="subdiag-chip__list">
+            <li class="subdiag-chip__item" id="subdiag-chip__item-1">Перепрограммирование электронных блоков (чип-тюнинг)</li>
+            <li class="subdiag-chip__item" id="subdiag-chip__item-2">Ремонт электронных блоков</li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="basement">
+        <div class="container">    
+        <div class="basement-info">
+            <div>
+                <h2 class="basement-title" id="basement-title">Контакты</h2>
+                <address>
+                    <ul class="basement-list">
+                        <li class="basement-item list">
+                            <a 
+                            href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.994507,36.145742,11z/data=!3m1!4b1!4m6!3m5!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d49.9935!4d36.230383!16zL20vMDgyc3k5?entry=ttu"
+                            target="_blank"
+                            ><span class="link-nav__city" id="link-nav__city">г. Харьков</span></a>
+                        </li>
+                        <li class="basement-item list">
+                            <a href=""><span class="link-nav__email">example@mail.com</span></a>
+                        </li>
+                        <li class="basement-item list">
+                            <a href=""><span class="link-nav__phone">+38 066 123 45 67</span></a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="basement-time">
+                    <p class="text-info__label" id="text-info__label">Время работы:</p>
+                    <p class="text-info__time">с 9:00 до 18:00 (Пн - Пт)</p>
+                </div>
+            </div>
+            <div class="feedback">
+                <h2 class="basement-title" id="basement-form-title">Обратная связь</h2>
+                <div>
+                    <form>
+                        <label>
+                            <img src="" alt="">
+                            <input 
+                            class="input-form"
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="Ваше имя"
+                            required
+                            >
+                        </label>
+                        <label>
+                            <img src="" alt="">
+                            <input 
+                            class="input-form"
+                            id="phone"
+                            type="tel"
+                            name="phone"
+                            placeholder="Ваш телефон"
+                            required
+                            >
+                        </label>
+                </div>
+                    <label>
+                        <img src="" alt="">
+                        <textarea
+                        class="message-form" 
+                        id="message"
+                        name="message"
+                        placeholder="Введите текст..."
+                        required
+                        >
+                        </textarea>
+                    </label>
+                    <div>
+                    <button class="basement-button" id="basement-form-button">Оставить заявку</button>
+                    </div>
+                    </form>
+            </div>
+        </div>
+            <div class="license-box">
+                <p class="license"><img class="color-img" src="./img/icon/copyright.svg" alt="Copyright" title="©"> 2023 SP Service</p>
+            </div>
+        </div>
+        </footer>
+
+        <script src="./js/lang-diag/chip-tun.js"></script>
+
+</body>
+</html>

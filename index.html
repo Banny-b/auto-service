@@ -31,13 +31,17 @@
                         <a class="link-nav__phone" href="">+38 066 123 45 67</a>
                     </li>
                 </ul>
+                <div class="lang-buttons">
+                    <button id="russian" class="language-button active" onclick="switchLanguage('russian')">Рус</button>
+                    <button id="ukrainian" class="language-button" onclick="switchLanguage('ukrainian')">Укр</button>
+                </div>
             </nav>
     </header>
     </div>
     <div class="hero-sub__container">
-        <h1 class="hero-title">Автодиагност</h1>
-        <p class="hero-text">Компьютерная диагностика, ремонт электро оборудования</p>
-        <button class="button" type="button" data-modal-open>Связаться</button>
+        <h1 class="hero-title" id="hero-title">Автодиагност</h1>
+        <p class="hero-text" id="hero-text">Компьютерная диагностика, ремонт электрооборудования</p>
+        <button class="button" type="button" id="contact-button" data-modal-open>Связаться</button>
     </div>
     </div>
 </section>
@@ -46,58 +50,70 @@
 <section class="diagnostic container">
     <ul class="diagnostic-list list">
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./diag-pc.html">
             <div class="diagnostic-item__container">
                 <img  
                 class="diagnostic-img" 
                 src="./img/diag/diag-1.jpg" 
                 alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Компьютерная диагностика</p>
+                <p class="diagnostic-text" id="diag-1">Компьютерная диагностика</p>
+            </a>
         </li>
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./diag-fuel.html">
             <div class="diagnostic-item__container">
             <img 
             class="diagnostic-img" 
             src="./img/diag/diag-2.jpg" 
             alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Диагностика системы впрыска</p>
+                <p class="diagnostic-text" id="diag-2">Диагностика системы впрыска</p>
+            </a>
         </li>
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./diag-ign.html">
             <div class="diagnostic-item__container">
             <img 
             class="diagnostic-img" 
             src="./img/diag/diag-3.jpg" 
             alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Диагностика системы зажигания</p>
+                <p class="diagnostic-text" id="diag-3">Диагностика системы зажигания</p>
+            </a>
         </li>
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./diag-electro.html">
             <div class="diagnostic-item__container">
             <img 
             class="diagnostic-img" 
             src="./img/diag/diag-4.jpg" 
             alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Диагностика электро оборудования</p>
+                <p class="diagnostic-text" id="diag-4">Диагностика электро оборудования</p>
+            </a>
         </li>
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./diag-ev.html">
             <div class="diagnostic-item__container">
             <img 
             class="diagnostic-img" 
             src="./img/diag/diag-5.jpg" 
             alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Диагностика электро-мобилей</p>
+                <p class="diagnostic-text" id="diag-5">Диагностика электромобилей</p>
+            </a>
         </li>
         <li class="diagnostic-item">
+            <a class="diagnostic-link" href="./chip-tun.html">
             <div class="diagnostic-item__container">
             <img 
             class="diagnostic-img" 
             src="./img/diag/diag-6.jpg" 
             alt="logo-diagnostica">
             </div>
-                <p class="diagnostic-text">Настройка электроники (чип-тюнинг)</p>
+                <p class="diagnostic-text" id="diag-6">Настройка электроники (чип-тюнинг)</p>
+            </a>
         </li>
     </ul>
 </section>
@@ -107,14 +123,14 @@
     <div class="container">
     <div class="sub-services-1">
         <img class="service-img" src="./img/service/service-1.jpg" alt="image-service">
-        <p class="text-service-1">Приём автомобиля в ремонт начинается с выслушивания жалоб клиента на 
+        <p class="text-service-1" id="text-service-1">Приём автомобиля в ремонт начинается с выслушивания жалоб клиента на 
             работу определённого узла или агрегата, затем составляется начальный перечень работ для 
             подтверждения жалобы клиента. Как правило начало работ начинается с внешнего осмотра узлов и 
             агрегатов, замера необходимых напряжений или компьютерной диагностики.
         </p>
     </div>
     <div class="sub-services-2">
-        <p class="text-service-2">Диагностика электронных систем автомобиля, ремонт электрических узлов, 
+        <p class="text-service-2" id="text-service-2">Диагностика электронных систем автомобиля, ремонт электрических узлов, 
             восстановление поврежденной электропроводки, контроль работы предупредительных индикаторов на 
             панели приборов.
         </p>
@@ -122,13 +138,13 @@
     </div>
     <div class="sub-services-3">
         <img class="service-img" src="./img/service/service-3.jpg" alt="image-service">
-        <p class="text-service-3">Поиск неисправностей в двигателе внутреннего сгорания. Проверка систем: 
+        <p class="text-service-3" id="text-service-3">Поиск неисправностей в двигателе внутреннего сгорания. Проверка систем: 
             зажигания, питания и цилиндро-поршневой группы. Выявление посторонних звуков или шумов в 
             работе ДВС.
         </p>
     </div>
     <div class="sub-services-4">
-        <p class="text-service-4">После выполненных работ производится проверка правильной работоспособности 
+        <p class="text-service-4" id="text-service-4">После выполненных работ производится проверка правильной работоспособности 
             узлов и агрегатов, отсутствие ошибок в электронных системах, проверяется отсутствие течи 
             технических жидкостей.
         </p>
@@ -142,14 +158,14 @@
     <div class="container">    
     <div class="basement-info">
         <div>
-            <h2 class="basement-title">Контакты</h2>
+            <h2 class="basement-title" id="basement-title">Контакты</h2>
             <address>
                 <ul class="basement-list">
                     <li class="basement-item list">
                         <a 
                         href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.994507,36.145742,11z/data=!3m1!4b1!4m6!3m5!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d49.9935!4d36.230383!16zL20vMDgyc3k5?entry=ttu"
                         target="_blank"
-                        ><span class="link-nav__city">г. Харьков</span></a>
+                        ><span class="link-nav__city" id="link-nav__city">г. Харьков</span></a>
                     </li>
                     <li class="basement-item list">
                         <a href=""><span class="link-nav__email">example@mail.com</span></a>
@@ -160,12 +176,12 @@
                 </ul>
             </address>
             <div class="basement-time">
-                <p class="text-info__label">Время работы:</p>
+                <p class="text-info__label" id="text-info__label">Время работы:</p>
                 <p class="text-info__time">с 9:00 до 18:00 (Пн - Пт)</p>
             </div>
         </div>
         <div class="feedback">
-            <h2 class="basement-title">Обратная связь</h2>
+            <h2 class="basement-title" id="basement-form-title">Обратная связь</h2>
             <div>
                 <form>
                     <label>
@@ -203,7 +219,7 @@
                     </textarea>
                 </label>
                 <div>
-                <button class="basement-button">Оставить заявку</button>
+                <button class="basement-button" id="basement-form-button">Оставить заявку</button>
                 </div>
                 </form>
         </div>
@@ -227,9 +243,9 @@
             </div>
             
                 <form class="modal-form">
-                    <p class="modal-form__title">Оставьте свои данные, мы перезвоним</p>
+                    <p class="modal-form__title" id="modal-form__title">Оставьте свои данные, мы перезвоним</p>
                     <label class="modal-form__lable">
-                        <span class="modal-form__desctiption">Имя</span>
+                        <span class="modal-form__description" id="modal-form__name">Имя</span>
                         <input 
                         class="modal-form__input"
                         type="text"
@@ -240,7 +256,7 @@
                         >
                     </label>
                     <label class="modal-form__lable">
-                        <span class="modal-form__desctiption">Телефон</span>
+                        <span class="modal-form__description">Телефон</span>
                         <input 
                         class="modal-form__input"
                         type="tel"
@@ -251,7 +267,7 @@
                         >
                     </label>
                     <label class="modal-form__lable">
-                        <span class="modal-form__desctiption">Почта</span>
+                        <span class="modal-form__description" id="modal-form__mail">Почта</span>
                         <input 
                         class="modal-form__input"
                         type="email"
@@ -259,9 +275,10 @@
                         >
                     </label>
                     <lable class="modal-form__lable">
-                        <span class="modal-form__desctiption">Комментарий</span>
+                        <span class="modal-form__description" id="modal-form__comment">Комментарий</span>
                         <textarea 
                         class="modal-form__message"
+                        id="message-modal"
                         name="user_message" 
                         placeholder="Введите текст..." 
                         >
@@ -277,18 +294,20 @@
                     <label 
                     class="modal-form__check-descr"
                     for="user-police"
+                    id="modal-form__check"
                     >
                     Соглашаюсь с рассылкой и принимаю&nbsp;
-                    <a class="modal-form__pact" href="">Условия договора</a>
+                    <a class="modal-form__pact" href="" id="modal-form__contract">Условия договора</a>
                     </label>
                 </div>
-                    <button class="modal-form__button" type="submit">Отправить</button>
+                    <button class="modal-form__button" type="submit" id="modal-form__btn">Отправить</button>
                 </form>
         </div>
     </div>
 
-    <button class="scrollButton" onclick="scrollToTop()">Вверх</button>
+    <button class="scrollButton" onclick="scrollToTop()" id="scroll-top">Вверх</button>
 
+    <script src="./js/lang.js"></script>
     <script src="./js/scrollTop.js"></script>
     <script src="./js/modalWindowV1.js"></script>
     <!-- <script src="./js/modalWindowV2.js"></script> -->

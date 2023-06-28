@@ -1,0 +1,43 @@
+.diag-fuel__main {
+    background: linear-gradient(to bottom, var(--white-color), var(--grey-color));
+    border-top: 2px solid var(--light-gray);
+    margin-bottom: 5px;
+    padding: 20px 0;
+}
+
+.diag-fuel__title {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.subdiag-fuel__img {
+    max-width: 100%;
+    border: 3px solid var(--white-color);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.subdiag-fuel__list {
+    list-style-type: none;
+    padding: 0 85px;
+}
+
+.subdiag-fuel__item {
+    text-align: center;
+    letter-spacing: 3px;
+    color: var(--white-color);
+
+    &::before {
+        content: "►";
+        font-size: 70%;
+        color: var(--button-color);
+        margin-right: 5px;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
