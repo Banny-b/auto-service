@@ -1,7 +1,5 @@
-// ! Нужна доработка!
+// * Перекючение языка
 
-
-// ToDo: Перекючение языка
 const switchLanguage = (language) => {
   const russianButton = document.getElementById('russian');
   const ukrainianButton = document.getElementById('ukrainian');
@@ -118,8 +116,8 @@ const switchLanguage = (language) => {
       modalName.textContent = 'Ім\'я';
       modalMail.textContent = 'Пошта';
       modalComment.textContent ='Коментар';
-      modalCheck.textContent = 'Погоджуюся з розсилкою та приймаю Умови договору'; // !
-      modalContract.textContent = 'Умови договору'; // ! Разобраться
+      modalCheck.textContent = 'Погоджуюся з розсилкою та приймаю Умови договору'; //
+      modalContract.textContent = 'Умови договору'; // 
       modalButton.textContent = 'Відправити';
       // Текст плесхолдера модального окна (укр)
       messageTextModal.textContent = 'Введіть текст...';
@@ -127,6 +125,3 @@ const switchLanguage = (language) => {
       scrollToTop.textContent = 'Вгору';
   }
 };
-
-
-

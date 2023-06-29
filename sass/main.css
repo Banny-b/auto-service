@@ -176,6 +176,29 @@ address {
   padding-left: 20px;
 }
 
+.hero-text {
+  overflow: hidden;
+}
+
+.hero-text:after {
+  content: "|";
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: blink-caret 0.75s step-end infinite;
+          animation: blink-caret 0.75s step-end infinite;
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
 .button, .modal-form__button, .basement-button {
   font-family: var(--primary-font);
   font-size: 20px;

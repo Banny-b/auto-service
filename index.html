@@ -30,15 +30,15 @@
                     <li class="menu-nav__item">
                         <a class="link-nav__phone" href="">+38 066 123 45 67</a>
                     </li>
-                </ul>
+                </ul>                
                 <div class="lang-buttons">
-                    <button id="russian" class="language-button active" onclick="switchLanguage('russian')">Рус</button>
-                    <button id="ukrainian" class="language-button" onclick="switchLanguage('ukrainian')">Укр</button>
+                    <button id="russian" class="language-button active" onclick="switchLanguage('russian'); printText('russian')">Рус</button>
+                    <button id="ukrainian" class="language-button" onclick="switchLanguage('ukrainian'); printText('ukrainian')">Укр</button>
                 </div>
             </nav>
     </header>
     </div>
-    <div class="hero-sub__container">
+    <div class="hero-sub__container" id="hero">
         <h1 class="hero-title" id="hero-title">Автодиагност</h1>
         <p class="hero-text" id="hero-text">Компьютерная диагностика, ремонт электрооборудования</p>
         <button class="button" type="button" id="contact-button" data-modal-open>Связаться</button>
@@ -308,6 +308,7 @@
     <button class="scrollButton" onclick="scrollToTop()" id="scroll-top">Вверх</button>
 
     <script src="./js/lang.js"></script>
+    <script src="./js/text-print.js"></script>
     <script src="./js/scrollTop.js"></script>
     <script src="./js/modalWindowV1.js"></script>
     <!-- <script src="./js/modalWindowV2.js"></script> -->
