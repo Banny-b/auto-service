@@ -18,11 +18,11 @@ const russianButton = document.getElementById("russian");
 const ukrainianButton = document.getElementById("ukrainian");
 
     if (language === "russian") {
-    text = "Компьютерная диагностика, ремонт электрооборудования";
+    text = "Компьютерная диагностика, ремонт электро оборудования";
     russianButton.classList.add("active");
     ukrainianButton.classList.remove("active");
     } else if (language === "ukrainian") {
-        text = "Ком'ютерна діагностика, ремонт електроустаткування";
+        text = "Ком'ютерна діагностика, ремонт електро устаткування";
         russianButton.classList.remove("active");
         ukrainianButton.classList.add("active");
     }

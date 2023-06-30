@@ -52,7 +52,7 @@ const switchLanguage = (language) => {
       diagnosticText1.textContent = 'Компьютерная диагностика';
       diagnosticText2.textContent = 'Диагностика системы впрыска';
       diagnosticText3.textContent = 'Диагностика системы зажигания';
-      diagnosticText4.textContent = 'Диагностика электро оборудования';
+      diagnosticText4.textContent = 'Диагностика электрооборудования';
       diagnosticText5.textContent = 'Диагностика электромобилей';
       diagnosticText6.textContent = 'Настройка электроники (чип-тюнинг)';
       // Тексты для элементов сервиса (рус)
@@ -93,7 +93,7 @@ const switchLanguage = (language) => {
       diagnosticText1.textContent = 'Комп\'ютерна діагностика';
       diagnosticText2.textContent = 'Діагностика системи впорскування';
       diagnosticText3.textContent = 'Діагностика системи запалення';
-      diagnosticText4.textContent = 'Діагностика електро устаткування';
+      diagnosticText4.textContent = 'Діагностика електроустаткування';
       diagnosticText5.textContent = 'Діагностика електромобілів';
       diagnosticText6.textContent = 'Налаштування електроніки (чіп-тюнінг)';
       // Тексты для элементов сервиса (укр)
