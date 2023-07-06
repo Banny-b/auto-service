@@ -78,6 +78,8 @@ address {
 }
 
 .language-button {
+  font-family: var(--primary-font);
+  font-weight: 300;
   font-size: 14px;
   color: var(--link-color);
   background-color: transparent;
@@ -100,8 +102,7 @@ address {
   .hero-header {
     margin-bottom: 40px;
     border-bottom: 1px solid;
-    -o-border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
-       border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
+    border-image: linear-gradient(to right, #a7a7a7 64%, #ffffff 36%);
     border-image-slice: 1;
   }
   .menu-nav__item:last-child {
@@ -120,8 +121,7 @@ address {
   .hero-header {
     margin-bottom: 60px;
     border-bottom: 1px solid;
-    -o-border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
-       border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
+    border-image: linear-gradient(to right, #a7a7a7 57%, #ffffff 43%);
     border-image-slice: 1;
   }
   .menu-nav li:not(:last-child) {
@@ -129,24 +129,23 @@ address {
   }
   .link-nav__email {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
   }
   .link-nav__phone {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
   }
   .lang-buttons {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    width: 70px;
+    width: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-header {
     border-bottom: 1px solid;
-    -o-border-image: linear-gradient(to right, #a7a7a7 54%, #ffffff 46%);
-       border-image: linear-gradient(to right, #a7a7a7 54%, #ffffff 46%);
+    border-image: linear-gradient(to right, #a7a7a7 54%, #ffffff 46%);
     border-image-slice: 1;
   }
   .menu-nav {
@@ -161,7 +160,7 @@ address {
 }
 
 .hero-title {
-  font-family: var(--title-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 44px;
   color: var(--text-color);
@@ -171,6 +170,7 @@ address {
 
 .hero-text {
   font-family: var(--primary-font);
+  font-weight: 400;
   font-size: 24px;
   color: var(--text-color);
   padding-left: 20px;
@@ -184,14 +184,7 @@ address {
   content: "|";
   display: inline-block;
   vertical-align: bottom;
-  -webkit-animation: blink-caret 0.75s step-end infinite;
-          animation: blink-caret 0.75s step-end infinite;
-}
-
-@-webkit-keyframes blink-caret {
-  50% {
-    opacity: 0;
-  }
+  animation: blink-caret 0.75s step-end infinite;
 }
 
 @keyframes blink-caret {
@@ -201,6 +194,7 @@ address {
 }
 .button, .modal-form__button, .basement-button {
   font-family: var(--primary-font);
+  font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
   color: var(--white-color);
@@ -265,8 +259,7 @@ address {
   }
   .button, .modal-form__button, .basement-button {
     margin-left: 90px;
-    -ms-writing-mode: initial;
-        writing-mode: initial; /* Default value */
+    writing-mode: initial; /* Default value */
     text-orientation: initial; /* Default value */
   }
 }
@@ -299,6 +292,8 @@ address {
 }
 
 .diagnostic-text {
+  font-family: var(--primary-font);
+  font-weight: 300;
   font-size: 18px;
   font-weight: 500;
   color: var(--text-color);
@@ -324,8 +319,8 @@ address {
 
 .text-service-1, .text-service-4, .text-service-3, .text-service-2 {
   font-family: var(--primary-font);
-  font-size: 24px;
   font-weight: 300;
+  font-size: 24px;
   color: var(--text-color);
   margin: auto 0;
   padding: 20px 30px;
@@ -404,7 +399,8 @@ address {
 }
 
 .basement-title {
-  font-family: var(--title-font);
+  font-family: var(--secondary-font);
+  font-weight: 400;
   font-size: 24px;
   color: var(--white-color);
   margin-bottom: 20px;
@@ -437,6 +433,7 @@ address {
 
 .text-info__label {
   font-family: var(--primary-fon);
+  font-weight: 400;
   font-size: 18px;
   color: var(--white-color);
   margin-bottom: 10px;
@@ -444,6 +441,7 @@ address {
 
 .text-info__time {
   font-family: var(--primary-fon);
+  font-weight: 400;
   font-size: 18px;
   color: var(--white-color);
 }
@@ -465,12 +463,6 @@ address {
   margin-bottom: 10px;
   transition: 300ms var(--function-transition);
 }
-.input-form::-moz-placeholder {
-  color: var(--text-color);
-}
-.input-form:-ms-input-placeholder {
-  color: var(--text-color);
-}
 .input-form::placeholder {
   color: var(--text-color);
 }
@@ -488,12 +480,6 @@ address {
   padding: 5px 10px;
   margin-bottom: 15px;
   transition: 300ms var(--function-transition);
-}
-.message-form::-moz-placeholder {
-  color: var(--text-color);
-}
-.message-form:-ms-input-placeholder {
-  color: var(--text-color);
 }
 .message-form::placeholder {
   color: var(--text-color);
@@ -516,6 +502,9 @@ address {
 }
 
 .license {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 18px;
   color: var(--white-color);
 }
 
@@ -728,9 +717,8 @@ address {
   }
 }
 :root {
-  --title-font: "Montserrat", sans-serif;
   --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
   --black-color: #000000;
   --border-color: #dcdcdc;
   --button-color: #ffa500;
@@ -754,6 +742,8 @@ address {
 }
 
 .diag-pc__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -774,6 +764,7 @@ address {
 }
 
 .subdiag-pc__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-pc__item::before {
@@ -822,6 +813,8 @@ address {
 }
 
 .diag-fuel__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -842,6 +835,7 @@ address {
 }
 
 .subdiag-fuel__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-fuel__item::before {
@@ -890,6 +884,8 @@ address {
 }
 
 .diag-ign__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -910,6 +906,7 @@ address {
 }
 
 .subdiag-ign__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-ign__item::before {
@@ -958,6 +955,8 @@ address {
 }
 
 .diag-electro__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -978,6 +977,7 @@ address {
 }
 
 .subdiag-electro__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-electro__item::before {
@@ -1026,6 +1026,8 @@ address {
 }
 
 .diag-ev__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -1046,6 +1048,7 @@ address {
 }
 
 .subdiag-ev__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-ev__item::before {
@@ -1094,6 +1097,8 @@ address {
 }
 
 .diag-chip__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 20px;
@@ -1114,6 +1119,7 @@ address {
 }
 
 .subdiag-chip__item {
+  font-family: var(--primary-font);
   color: var(--white-color);
 }
 .subdiag-chip__item::before {

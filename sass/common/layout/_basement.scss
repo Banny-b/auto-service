@@ -11,7 +11,8 @@
 }
 
 .basement-title {
-    font-family: var(--title-font);
+    font-family: var(--secondary-font);
+    font-weight: 400;
     font-size: 24px;
     color: var(--white-color);
     margin-bottom: 20px;
@@ -46,6 +47,7 @@
 
 .text-info__label {
     font-family: var(--primary-fon);
+    font-weight: 400;
     font-size: 18px;
     color: var(--white-color);
     margin-bottom: 10px;
@@ -53,6 +55,7 @@
 
 .text-info__time {
     font-family: var(--primary-fon);
+    font-weight: 400;
     font-size: 18px;
     color: var(--white-color);
 }
@@ -121,6 +124,9 @@
 }
 
 .license {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
     color: var(--white-color);
 }
 

@@ -29,6 +29,8 @@
 }
 
 .diagnostic-text {
+    font-family: var(--primary-font);
+    font-weight: 300;
     font-size: 18px;
     font-weight: 500;
     color: var(--text-color);

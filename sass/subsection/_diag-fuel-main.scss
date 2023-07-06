@@ -6,6 +6,8 @@
 }
 
 .diag-fuel__title {
+    font-family: var(--secondary-font);
+    font-weight: 400;
     text-align: center;
     color: var(--text-color);
     margin-bottom: 20px;
@@ -26,6 +28,7 @@
 }
 
 .subdiag-fuel__item {
+    font-family: var(--primary-font);
     color: var(--white-color);
 
     &::before {

@@ -35,6 +35,8 @@
 }
 
 .language-button {
+    font-family: var(--primary-font);
+    font-weight: 300;
     font-size: 14px;
     color: var(--link-color);
     background-color: transparent;
@@ -93,19 +95,19 @@
 
     .link-nav__email {
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .link-nav__phone {
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .lang-buttons {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
-        width: 70px;
+        width: 60px;
     }
 }
 
