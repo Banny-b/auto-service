@@ -24,14 +24,16 @@
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
     .modal {
-        left: 10%;
+        display: none;
+        // left: 10%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .modal {
+        display: block;
         left: 24%;
     }
 }
