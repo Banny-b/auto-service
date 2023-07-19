@@ -46,7 +46,7 @@ const switchLanguage = (language) => {
       ukrainianButton.classList.remove('active');
       // Тексты для элементов страницы Hero (рус)
       heroTitle.textContent = 'Автодиагност';
-      heroText.textContent = 'Компьютерная диагностика, ремонт электрооборудования';
+      heroText.textContent = 'Компьютерная диагностика, ремонт электро оборудования';
       contactButton.textContent = 'Связаться';
       // Тексты для элементов диагностики (рус)
       diagnosticText1.textContent = 'Компьютерная диагностика';
@@ -87,7 +87,7 @@ const switchLanguage = (language) => {
       ukrainianButton.classList.add('active');
       // Тексты для элементов страницы Hero (укр)
       heroTitle.textContent = 'Автодіагност';
-      heroText.textContent = 'Комп\'ютерна діагностика, ремонт електроустаткування';
+      heroText.textContent = 'Комп\'ютерна діагностика, ремонт електро устаткування';
       contactButton.textContent = 'Зв\'язатися';
       // Тексты для элементов диагностики (укр)
       diagnosticText1.textContent = 'Комп\'ютерна діагностика';
