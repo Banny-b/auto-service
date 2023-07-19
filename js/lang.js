@@ -46,13 +46,13 @@ const switchLanguage = (language) => {
       ukrainianButton.classList.remove('active');
       // Тексты для элементов страницы Hero (рус)
       heroTitle.textContent = 'Автодиагност';
-      heroText.textContent = 'Компьютерная диагностика, ремонт электро оборудования';
+      heroText.textContent = 'Компьютерная диагностика, ремонт электрооборудования';
       contactButton.textContent = 'Связаться';
       // Тексты для элементов диагностики (рус)
       diagnosticText1.textContent = 'Компьютерная диагностика';
       diagnosticText2.textContent = 'Диагностика системы впрыска';
       diagnosticText3.textContent = 'Диагностика системы зажигания';
-      diagnosticText4.textContent = 'Диагностика электрооборудования';
+      diagnosticText4.textContent = 'Диагностика электро оборудования';
       diagnosticText5.textContent = 'Диагностика электромобилей';
       diagnosticText6.textContent = 'Настройка электроники (чип-тюнинг)';
       // Тексты для элементов сервиса (рус)
@@ -87,13 +87,13 @@ const switchLanguage = (language) => {
       ukrainianButton.classList.add('active');
       // Тексты для элементов страницы Hero (укр)
       heroTitle.textContent = 'Автодіагност';
-      heroText.textContent = 'Комп\'ютерна діагностика, ремонт електро устаткування';
+      heroText.textContent = 'Комп\'ютерна діагностика, ремонт електроустаткування';
       contactButton.textContent = 'Зв\'язатися';
       // Тексты для элементов диагностики (укр)
       diagnosticText1.textContent = 'Комп\'ютерна діагностика';
       diagnosticText2.textContent = 'Діагностика системи впорскування';
       diagnosticText3.textContent = 'Діагностика системи запалення';
-      diagnosticText4.textContent = 'Діагностика електроустаткування';
+      diagnosticText4.textContent = 'Діагностика електро устаткування';
       diagnosticText5.textContent = 'Діагностика електромобілів';
       diagnosticText6.textContent = 'Налаштування електроніки (чіп-тюнінг)';
       // Тексты для элементов сервиса (укр)
