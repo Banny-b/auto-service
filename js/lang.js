@@ -23,6 +23,7 @@ const switchLanguage = (language) => {
   const basementContactTitle = document.getElementById('basement-title');
   const basementCity = document.getElementById('link-nav__city');
   const basementClockTitle = document.getElementById('text-info__label');
+  const basementClockTime = document.getElementById('text-info__time');
   const basementFormTitle = document.getElementById('basement-form-title');
   const basementFormButton = document.getElementById('basement-form-button');
   // Идентификаторы для плейсхолдеров формы подвала
@@ -40,7 +41,7 @@ const switchLanguage = (language) => {
   // Идентификатор плесхолдера модального окна
   const messageTextModal = document.getElementById('message-modal');
   // Идентификатор кнопки "Наверх"
-  const scrollToTop = document.getElementById('scroll-top');
+  // const scrollToTop = document.getElementById('scroll-top');
   if (language === 'russian') {
       russianButton.classList.add('active');
       ukrainianButton.classList.remove('active');
@@ -64,6 +65,7 @@ const switchLanguage = (language) => {
       basementContactTitle.textContent = 'Контакты';
       basementCity.textContent = 'г. Харьков';
       basementClockTitle.textContent = 'Время работы:';
+      basementClockTime.textContent = 'c';
       basementFormTitle.textContent = 'Обратная связь';
       basementFormButton.textContent = 'Оставить заявку';
       // Тексты для плейсхолдеров формы подвала (рус)
@@ -81,7 +83,7 @@ const switchLanguage = (language) => {
       // Текст плесхолдера модального окна (рус)
       messageTextModal.textContent = 'Введите текст...';
       // Текст кнопки "Наверх" (рус)
-      scrollToTop.textContent = 'Вверх';
+      // scrollToTop.textContent = 'Вверх';
   } else if (language === 'ukrainian') {
       russianButton.classList.remove('active');
       ukrainianButton.classList.add('active');
@@ -105,6 +107,7 @@ const switchLanguage = (language) => {
       basementContactTitle.textContent = 'Контакти';
       basementCity.textContent = 'м. Харків';
       basementClockTitle.textContent = 'Час роботы:';
+      basementClockTime.textContent = 'з';
       basementFormTitle.textContent = 'Зворотній зв\'язок';
       basementFormButton.textContent = 'Залишити заявку';
       // Тексты для плейсхолдеров формы подвала (укр)
@@ -116,12 +119,12 @@ const switchLanguage = (language) => {
       modalName.textContent = 'Ім\'я';
       modalMail.textContent = 'Пошта';
       modalComment.textContent ='Коментар';
-      modalCheck.textContent = 'Погоджуюся з розсилкою та приймаю Умови договору'; //
-      modalContract.textContent = 'Умови договору'; // 
+      modalCheck.textContent = 'Погоджуюся з розсилкою та приймаю Умови договору';
+      modalContract.textContent = 'Умови договору';
       modalButton.textContent = 'Відправити';
       // Текст плесхолдера модального окна (укр)
       messageTextModal.textContent = 'Введіть текст...';
       // Текст кнопки "Наверх" (укр)
-      scrollToTop.textContent = 'Вгору';
+      // scrollToTop.textContent = 'Вгору';
   }
 };

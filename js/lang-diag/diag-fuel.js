@@ -9,6 +9,7 @@ const switchLanguage = (language) => {
     const basementContactTitle = document.getElementById('basement-title');
     const basementCity = document.getElementById('link-nav__city');
     const basementClockTitle = document.getElementById('text-info__label');
+    const basementClockTime = document.getElementById('text-info__time');
     const basementFormTitle = document.getElementById('basement-form-title');
     const basementFormButton = document.getElementById('basement-form-button');
     // Идентификаторы для плейсхолдеров формы подвала
@@ -26,6 +27,7 @@ const switchLanguage = (language) => {
         basementContactTitle.textContent = 'Контакты';
         basementCity.textContent = 'г. Харьков';
         basementClockTitle.textContent = 'Время работы:';
+        basementClockTime.textContent = 'c';
         basementFormTitle.textContent = 'Обратная связь';
         basementFormButton.textContent = 'Оставить заявку';
         // Тексты для плейсхолдеров формы подвала (рус)
@@ -43,6 +45,7 @@ const switchLanguage = (language) => {
         basementContactTitle.textContent = 'Контакти';
         basementCity.textContent = 'м. Харків';
         basementClockTitle.textContent = 'Час роботы:';
+        basementClockTime.textContent = 'з';
         basementFormTitle.textContent = 'Зворотній зв\'язок';
         basementFormButton.textContent = 'Залишити заявку';
         // Тексты для плейсхолдеров формы подвала (укр)
